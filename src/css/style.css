@@ -1,0 +1,171 @@
+* {
+    /* указываем шрифт , в дальнейшем ползуемся font-weight: толщина; */
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    /* способ 1 смещение вверх */
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+   
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    height: 14px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    /* для смещения вверх способ 2 */
+    /* position: relative; */
+    /* z-index: 2; */
+
+    /* способ 1 смещение вверх */
+    position: absolute;
+    width: 100%;
+
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    /* Style for "Официальный" */
+    color: rgba(255, 255, 255, 0.5);
+
+    /* font-family: указывать не надо; */
+    /* font-family: "Roboto - Thin"; */
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.subheader .subheader_call {
+    /* Style for "Звоните на" */
+    margin-top: 19px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    /* Style for "8 495 797" */
+    display: block;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    /* Style for "Rounded Re" */
+    width: 172px;
+    height: 46px;
+    margin-top: 19px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 3px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+
+    /* Style for "заказать з" */
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/* section promo */
+
+.promo {
+    min-height: 800px;
+    background: url(../img/header.png) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+
+    /* для смещения вверх способ 2 */
+    /* transform: translateY(-84px);
+    z-index: 1; */
+}
+
+.promo .promo_header {
+    /* Style for "КОМПАНИЯ U" */
+    text-align: center;
+    margin: 0;
+    margin-top: 67px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+
+
+}
+
+.promo .promo_subheader {
+    /* Text style for "ПРИГЛАШАЕМ" */
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #ffffff;
+    margin: 0;
+    margin-top: 14px;
+}
+
+.promo .promo_descr {
+    /* Style for "Компания U" */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    /* Style for "Rounded Re" */
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    /* Style for "ОТПРАВИТЬ" */
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
