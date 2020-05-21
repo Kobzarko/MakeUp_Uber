@@ -6,13 +6,15 @@
 header {
     /* способ 1 смещение вверх */
     position: relative;
+    height: 50px;
 }
 
 nav {
     height: 50px;
     background-color: #212121;
-   
-    
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .menu {
@@ -43,7 +45,7 @@ nav {
     /* способ 1 смещение вверх */
     position: absolute;
     width: 100%;
-
+    top: 50px;
     height: 84px;
     background-color: rgba(0, 0, 0, .6);
 }
@@ -168,4 +170,68 @@ nav {
     border: none;
     border-radius: 3px;
     text-transform: uppercase;
+}
+
+/* .reasons */
+
+.reasons {
+    padding: 71px 0 65px 0;
+}
+
+.reasons .label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.reasons .title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 343px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
 }
