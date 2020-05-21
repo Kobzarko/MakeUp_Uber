@@ -1,5 +1,5 @@
 * {
-    /* указываем шрифт , в дальнейшем ползуемся font-weight: толщина; */
+    /* указываем шрифт , в дальнейшем пользуемся font-weight: толщина; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -172,6 +172,7 @@ nav {
     text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /* .reasons */
 
 .reasons {
@@ -235,3 +236,5 @@ nav {
     font-weight: 300;
     line-height: 21px;
 }
+
+=======>>>>>>>827eb69cab6145a7fc9ed7683c5c08bcb67b2ce3
