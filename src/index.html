@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0;" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet" />
   <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
   <title>Uber</title>
@@ -14,7 +14,7 @@
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/fonts.css" />
   <link rel="stylesheet" href="css/style.min.css" />
-  
+
 </head>
 
 <body>
@@ -39,7 +39,7 @@
     <div class="subheader">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 offset-md-1">
+          <div class="col-6 col-md-4 offset-md-1">
             <a href="#" class="subheader_logo">
               <img src="icons/logo.png" alt="logo" />
             </a>
@@ -47,11 +47,12 @@
               Официальный партнер Uber в Москве
             </div>
           </div>
-          <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+          <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
             <div class="subheader_call">Звоните нам ежедневно</div>
             <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
           </div>
-          <div class="col-md-3 col-lg-2">
+          <div class="col-6 col-md-3 ">
+            <a href="tel:84957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
             <button class="subheader_btn">заказать звонок</button>
           </div>
         </div>
@@ -290,7 +291,7 @@
 
   <section class="choice">
     <div class="container">
-      <!-- <div class="black"></div> -->
+      <div class="black"></div>
       <div class="label label_white">возможности</div>
       <h2 class="title title_white">Выбор - отличная штука!</h2>
       <div class="subtitle subtitle_white">
@@ -420,6 +421,7 @@
       </div>
     </div>
   </section>
+  <!-- <section class="world"> -->
   <section class="world">
     <div class="container">
       <div class="label label_white">города</div>
@@ -485,6 +487,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
