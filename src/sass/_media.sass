@@ -209,6 +209,13 @@
 				background-image: linear-gradient(to top, $main-color 10%, #4ce2ff 100%)
 	.menu
 		width: 85%
+		&_item
+			width: 100%
+			text-align: center
+			padding: 5px 0
+			&_link
+				display: block
+					
 	.reasons
 		padding: 22px 0 36px 0
 		&_block
@@ -225,6 +232,17 @@
 		padding: 20px 0 40px 0
 		.row
 			margin-top: 30px
+		&_item 
+			height: 254px
+			padding: 81px 40px 0 40px
+			&_subtitle
+				font-size: 18px
+				line-height: 31px
+			&_plus 
+				bottom: 28px
+				&:hover 
+					&:before, &:after 
+						background-color: $main-color
 	.choice
 		padding: 25px 0 33px 0
 		min-height: 390px
